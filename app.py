@@ -46,7 +46,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「最強の保育士」ボット")
-st.image("/content/ageha_仕事顔.jpg")
+st.image("ageha_仕事顔.jpg")
 st.write("みんな！アゲてこ～～！！")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
